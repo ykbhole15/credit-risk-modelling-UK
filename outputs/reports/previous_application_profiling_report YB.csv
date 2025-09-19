@@ -1,0 +1,48 @@
+Feature,Data Type,% Missing,count,unique,top,freq,mean,std,min,0.25,Median (50%),0.75,max,Unique Values,,DAYS_FIRST_DUE
+,,,,,,,,,,,,,,,,AMT_ANNUITY
+,,,,,,,,,,,,,,,,AMT_CREDIT
+,,,,,,,,,,,,,,,,NAME_YIELD_GROUP
+,,,,,,,,,,,,,,,,NAME_CLIENT_TYPE
+,,,,,,,,,,,,,,,,CODE_REJECT_REASON
+,,,,,,,,,,,,,,,,NAME_CONTRACT_STATUS
+,,,,,,,,,,,,,,,,AMT_APPLICATION
+,,,,,,,,,,,,,,,,
+,,,,,,,,,,,,,,,,
+,,,,,,,,,,,,,,,,
+RATE_INTEREST_PRIVILEGED,float64,99.64369835,5951,,,,0.773502543,0.100878591,0.373150106,0.71564482,0.835095137,0.852536998,1,,,
+RATE_INTEREST_PRIMARY,float64,99.64369835,5951,,,,0.18835689,0.087671105,0.034781254,0.16071631,0.189122181,0.193329933,1,,,
+AMT_DOWN_PAYMENT,float64,53.63648012,774370,,,,6697.402139,20921.49541,-0.9,0,1638,7740,3060045,,,
+RATE_DOWN_PAYMENT,float64,53.63648012,774370,,,,0.079636815,0.107823314,-1.50E-05,0,0.051605085,0.108909091,1,,,
+NAME_TYPE_SUITE,object,49.11975352,849809,7,Unaccompanied,508970,,,,,,,,"[nan, 'Unaccompanied', 'Spouse, partner', 'Family', 'Children', 'Other_B', 'Other_A', 'Group of people']",,
+NFLAG_INSURED_ON_APPROVAL,float64,40.29812946,997149,,,,0.332570158,0.471134238,0,0,0,1,1,,,
+DAYS_TERMINATION,float64,40.29812946,997149,,,,81992.34384,153303.5167,-2874,-1270,-499,-44,365243,,,
+DAYS_LAST_DUE,float64,40.29812946,997149,,,,76582.40306,149647.4151,-2889,-1314,-537,-74,365243,,,
+DAYS_LAST_DUE_1ST_VERSION,float64,40.29812946,997149,,,,33767.77405,106857.0348,-2801,-1242,-361,129,365243,,,
+DAYS_FIRST_DUE,float64, 40.30 ,997149,,,," 13,826 "," 72,445 "," -2,892 "," -1,628 ", -831 , -411 ," 3,65,243 ",,,
+DAYS_FIRST_DRAWING,float64,40.29812946,997149,,,,342209.855,88916.11583,-2922,365243,365243,365243,365243,,,
+AMT_GOODS_PRICE,float64,23.08177275,1284699,,,,227847.2793,315396.5579,0,50841,112320,234000,6905160,,,
+AMT_ANNUITY,float64, 22.29 ,1297979,,,," 15,955 "," 14,782 ", -   ," 6,322 "," 11,250 "," 20,658 "," 4,18,058 ",,,
+CNT_PAYMENT,float64,22.2863657,1297984,,,,16.05408156,14.56728774,0,6,12,24,84,,,
+PRODUCT_COMBINATION,object,0.020715908,1669868,17,Cash,285990,,,,,,,,[High Cardinality],,
+AMT_CREDIT,float64, 0.00 ,1670213,,,," 1,96,114 "," 3,18,575 ", -   ," 24,161 "," 80,541 "," 2,16,419 "," 69,05,160 ",,,
+NAME_YIELD_GROUP,object, -   ,1670214, 5 , XNA ," 5,17,215 ",,,,,,,," ['middle', 'low_action', 'high', 'low_normal', 'XNA'] ",,
+NAME_PORTFOLIO,object,0,1670214,5,POS,691011,,,,,,,,"['POS', 'Cash', 'XNA', 'Cards', 'Cars']",,
+NAME_SELLER_INDUSTRY,object,0,1670214,11,XNA,855720,,,,,,,,"['Connectivity', 'XNA', 'Consumer electronics', 'Industry', 'Clothing', 'Furniture', 'Construction', 'Jewelry', 'Auto technology', 'MLM partners', 'Tourism']",,
+SELLERPLACE_AREA,int64,0,1670214,,,,313.9511152,7127.443459,-1,-1,3,82,4000000,,,
+CHANNEL_TYPE,object,0,1670214,8,Credit and cash offices,719968,,,,,,,,"['Country-wide', 'Contact center', 'Credit and cash offices', 'Stone', 'Regional / Local', 'AP+ (Cash loan)', 'Channel of corporate sales', 'Car dealer']",,
+NAME_PRODUCT_TYPE,object,0,1670214,3,XNA,1063666,,,,,,,,"['XNA', 'x-sell', 'walk-in']",,
+SK_ID_PREV,int64,0,1670214,,,,1923089.135,532597.9587,1000001,1461857.25,1923110.5,2384279.75,2845382,,,
+NAME_GOODS_CATEGORY,object,0,1670214,28,XNA,950809,,,,,,,,[High Cardinality],,
+NAME_CLIENT_TYPE,object, -   ,1670214, 4 , Repeater ," 12,31,261 ",,,,,,,," ['Repeater', 'New', 'Refreshed', 'XNA'] ",,
+CODE_REJECT_REASON,object, -   ,1670214, 9 , XAP ," 13,53,093 ",,,,,,,," ['XAP', 'HC', 'LIMIT', 'CLIENT', 'SCOFR', 'SCO', 'XNA', 'VERIF', 'SYSTEM'] ",,
+SK_ID_CURR,int64,0,1670214,,,,278357.1741,102814.8238,100001,189329,278714.5,367514,456255,,,
+DAYS_DECISION,int64,0,1670214,,,,-880.679668,779.0996668,-2922,-1300,-581,-280,-1,,,
+NAME_CONTRACT_STATUS,object, -   ,1670214, 4 , Approved ," 10,36,781 ",,,,,,,," ['Approved', 'Refused', 'Canceled', 'Unused offer'] ",,
+NAME_CASH_LOAN_PURPOSE,object,0,1670214,25,XAP,922661,,,,,,,,[High Cardinality],,
+NFLAG_LAST_APPL_IN_DAY,int64,0,1670214,,,,0.996467519,0.059329631,0,1,1,1,1,,,
+FLAG_LAST_APPL_PER_CONTRACT,object,0,1670214,2,Y,1661739,,,,,,,,"['Y', 'N']",,
+HOUR_APPR_PROCESS_START,int64,0,1670214,,,,12.48418167,3.334027965,0,10,12,15,23,,,
+WEEKDAY_APPR_PROCESS_START,object,0,1670214,7,TUESDAY,255118,,,,,,,,"['SATURDAY', 'THURSDAY', 'TUESDAY', 'MONDAY', 'FRIDAY', 'SUNDAY', 'WEDNESDAY']",,
+AMT_APPLICATION,float64, -   ,1670214,,,," 1,75,234 "," 2,92,780 ", -   ," 18,720 "," 71,046 "," 1,80,360 "," 69,05,160 ",,,
+NAME_CONTRACT_TYPE,object,0,1670214,4,Cash loans,747553,,,,,,,,"['Consumer loans', 'Cash loans', 'Revolving loans', 'XNA']",,
+NAME_PAYMENT_TYPE,object,0,1670214,4,Cash through the bank,1033552,,,,,,,,"['Cash through the bank', 'XNA', 'Non-cash from your account', 'Cashless from the account of the employer']",,

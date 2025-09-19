@@ -1,0 +1,8 @@
+# Data - never commit data to Git
+data/
+
+# Environment & Cache
+.venv/
+venv/
+__pycache__/
+.ipynb_checkpoints/

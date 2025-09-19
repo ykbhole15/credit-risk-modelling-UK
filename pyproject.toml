@@ -1,0 +1,79 @@
+# pyproject.toml
+
+# This section defines the tools needed to build the package.
+[build-system]
+requires = ["setuptools>=61.0"]
+build-backend = "setuptools.build_meta"
+
+# This is the main section containing all the metadata about the library.
+[project]
+# The name that will be used on PyPI. Users will install it via `pip install risk-governance-kit`.
+name = "risk-governance-kit"
+version = "0.1.0" # Start with version 0.1.0 for the initial release.
+
+# --- IMPORTANT: EDIT THIS SECTION WITH YOUR DETAILS ---
+authors = [
+  { name="Yuvaraj Bhole", email="ykbhole@gmail.com" },
+]
+
+
+description = "An open-source Python toolkit for automating credit risk model governance, validation, and monitoring, aligned with IFRS 9 and PRA standards."
+
+# Points to your README file for the long description on PyPI.
+readme = "README.md"
+
+# Specifies the license. You must have a LICENSE file in your repository.
+license = { file="LICENSE" }
+
+# Specifies the minimum Python version required. 3.8 is a good, modern choice.
+requires-python = ">=3.8"
+
+# These keywords will help users find your library when searching on PyPI.
+keywords = ["credit-risk", "ifrs9", "cecl", "model-validation", "risk-management", "fintech", "finance", "psi", "gini", "woe"]
+
+# Standardized classifiers that help PyPI categorize the project.
+
+classifiers = [
+    "Development Status :: 3 - Alpha", # An early, but usable, release.
+    "Programming Language :: Python :: 3",
+    "License :: OSI Approved :: MIT License",
+    "Operating System :: OS Independent",
+    "Intended Audience :: Financial and Insurance Industry",
+    "Intended Audience :: Developers",
+    "Topic :: Office/Business :: Financial :: Investment",
+    "Topic :: Scientific/Engineering :: Information Analysis",
+]
+
+# These are the core packages your library NEEDS to run.
+# Pip will automatically install these when a user installs your library.
+dependencies = [
+    "pandas>=1.5.0",
+    "numpy>=1.20.0",
+    "scipy>=1.9.0",
+    "matplotlib>=3.6.0",
+    "seaborn>=0.12.0",
+    "scikit-learn>=1.2.0"
+]
+
+# These URLs will be displayed on the PyPI page, pointing users to the right places.
+
+[project.urls]
+"Homepage" = "https://github.com/ykbhole15/credit-risk-modelling-UK"
+"Issues" = "https://github.com/ykbhole15/credit-risk-modelling-UK/issues"
+
+
+# This section is for dependencies that are NOT needed to run the library,
+# but are needed for development and testing.
+# A user can install these with: pip install .[dev,test]
+[project.optional-dependencies]
+dev = [
+    "pytest",   # For running tests.
+    "black",    # For auto-formatting your code to a professional standard.
+    "ruff",     # An extremely fast linter to find code errors.
+]
+test = [
+    "pytest",
+    "pytest-cov", # For checking your test coverage.
+]
+
+# Not creating a command-line script, so the [project.scripts] section is not needed.
