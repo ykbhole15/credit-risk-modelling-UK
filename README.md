@@ -4,7 +4,7 @@ The Digital IFRS 9 Playbook: A PRA-Compliant Credit Risk Framework
 
 <!-- Optional: Add a logo for your project and place it in an 'assets' folder inside 'notebooks' -->
 
-This repository contains the end-to-end development of a world-class, AI-driven IFRS 9 Expected Credit Loss (ECL) framework. It is designed to meet the rigorous standards of the UK's Prudential Regulation Authority (PRA) and serves as a portfolio for the UK Global Talent Visa.
+This repository contains the end-to-end development of a world-class, AI-driven IFRS 9 Expected Credit Loss (ECL) framework. It is designed to meet the rigorous standards of the UK's Prudential Regulation Authority (PRA).
 
 
 
